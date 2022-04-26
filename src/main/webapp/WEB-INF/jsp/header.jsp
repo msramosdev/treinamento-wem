@@ -14,7 +14,7 @@
                         <a href="#">Como funciona</a>
                     </li>
                     <li class="menu__item">
-                        <a href="#planos">Planos e Preços</a>
+                        <a href="/my-pilas/#planos">Planos e Preços</a>
                     </li>
                     <li class="menu__item">
                         <a href="#">Contato</a>
