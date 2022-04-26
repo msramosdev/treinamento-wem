@@ -11,13 +11,13 @@
             
                 <ul class="menu  js-menu">
                     <li class="menu__item">
-                        <a href="#">Como funciona</a>
+                        <a href="/my-pilas">Como funciona</a>
                     </li>
                     <li class="menu__item">
                         <a href="/my-pilas/#planos">Planos e Preços</a>
                     </li>
                     <li class="menu__item">
-                        <a href="#">Contato</a>
+                        <a href="/my-pilas/contact">Contato</a>
                     </li>
                     <li class="menu__item  menu__item--botao">
                         <a href="#" class="botao  botao--login">Login</a>
