@@ -9,13 +9,14 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.vilt</groupId>
-	<artifactId>trainning-wem</artifactId>
+	<artifactId>training-wem</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>trainning-wem</name>
-	<description>Project for trainning wem</description>
+	<name>training-wem</name>
+	<description>Project for training wem</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
+	<packaging>war</packaging>
 	<dependencies>
 		<!-- Spring -->
 		<dependency>
@@ -33,21 +34,33 @@
 		<dependency>
 			<groupId>org.apache.tomcat.embed</groupId>
 			<artifactId>tomcat-embed-jasper</artifactId>
-			<version>10.0.20</version>
+<!--			<scope>provided</scope>-->
 		</dependency>
 
 		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>jstl</artifactId>
 			<version>1.2</version>
+<!--			<scope>provided</scope>-->
 		</dependency>
 	</dependencies>
 
 	<build>
+		<finalName>my-pilas-jsp</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<mainClass>com.vilt.trainingwem.TrainingWemApplication</mainClass>
+				</configuration>
+				<executions>
+					<execution>
+						<goals>
+							<goal>repackage</goal>
+						</goals>
+					</execution>
+				</executions>
 			</plugin>
 		</plugins>
 	</build>

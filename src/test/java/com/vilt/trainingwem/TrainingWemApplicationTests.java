@@ -1,10 +1,10 @@
-package com.vilt.trainningwem;
+package com.vilt.trainingwem;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class TrainningWemApplicationTests {
+class TrainingWemApplicationTests {
 
 	@Test
 	void contextLoads() {
